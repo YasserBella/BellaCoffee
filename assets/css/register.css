@@ -1,0 +1,109 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #4e342e; /* Coffee Brown */
+    background-color: #f8f5f2; /* Soft Beige */
+}
+
+/* Header */
+header {
+    background-color: #3e2723;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 a {
+    color: #ffc107;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* Registration Section */
+.register {
+    padding: 50px 20px;
+    background-color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.register h2 {
+    font-size: 2rem;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+.register p {
+    font-size: 1rem;
+    color: #6d4c41;
+    margin: 10px 0;
+}
+
+.register .error {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.register form label {
+    text-align: left;
+    color: #3e2723;
+    font-weight: bold;
+}
+
+.register form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.register .btn {
+    background-color: #ffc107;
+    color: #3e2723;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register .btn:hover {
+    background-color: #3e2723;
+    color: #fff;
+}
+
+.register a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #3e2723;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
